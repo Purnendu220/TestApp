@@ -3,10 +3,9 @@ import { TRANSLATIONS, TRANSLATIONS_FORMAT, LOCALE_ID } from '@angular/core';
 export function getTranslationProviders(): Promise<Object[]> {
 
   // Get the locale id from the global
-  const locale = document['locale'] as string;
 
   // return no providers if fail to get translation file for locale
-  const noProviders: Object[] = [];
+  const noProvidersss: Object[] = [];
 
   // No locale or U.S. English: no translation providers
   debugger;
