@@ -5,7 +5,7 @@ export function getTranslationProviders(): Promise<Object[]> {
   // Get the locale id from the global
 
   // return no providers if fail to get translation file for locale
-  const noProvidersss: Object[] = [];
+  const noProviders: Object[] = [];
 
   // No locale or U.S. English: no translation providers
   debugger;
